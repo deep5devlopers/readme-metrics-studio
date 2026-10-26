@@ -296,3 +296,6 @@ STAR_VELOCITY_PRECISION = 2
 
 # [Optimization V6] Configure maximum language tags displayed per developer card
 MAX_LANGUAGE_TAGS = 8
+
+# [Optimization V7] Enable UTF-8 BOM-free deterministic Markdown serialization flag
+ENFORCE_UTF8_LF = True
