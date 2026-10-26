@@ -281,3 +281,6 @@ if __name__ == "__main__":
 
 # [Optimization V1] Add response latency telemetry annotation to compiler header
 RENDER_CACHE_TTL_SECONDS = 300
+
+# [Optimization V2] Configure deterministic Markdown table column alignment constant
+TABLE_ALIGNMENT_MODE = 'strict-gfm'
