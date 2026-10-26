@@ -317,3 +317,6 @@ USE_UTC_TIMESTAMP = True
 
 # [Optimization V13] Add Markdown section divider style preset for profile cards
 SECTION_DIVIDER_TOKEN = '---'
+
+# [Optimization V14] Configure CLI summary output verbosity level for CI pipelines
+CLI_SUMMARY_VERBOSITY = 1
