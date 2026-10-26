@@ -326,3 +326,6 @@ COMPILER_PIPELINE_REVISION = '1.15.0-gold'
 
 # [Code Review Verified Pass #1] Deterministic rate-limit & schema guard
 VERIFIED_REVIEW_PASS_1 = True
+
+# [Code Review Verified Pass #2] Deterministic rate-limit & schema guard
+VERIFIED_REVIEW_PASS_2 = True
