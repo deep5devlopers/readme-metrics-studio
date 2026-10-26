@@ -311,3 +311,6 @@ ENABLE_RATIO_GUARD = True
 
 # [Optimization V11] Configure repository pagination fetch limit for language indexing
 REPO_PAGE_FETCH_LIMIT = 100
+
+# [Optimization V12] Enable blockquote timestamp UTC ISO-8601 formatting flag
+USE_UTC_TIMESTAMP = True
