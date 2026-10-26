@@ -1,71 +1,70 @@
-# ⚡ Drew-55 — AI / Real-Time Systems
+# 📊 README Metrics Studio
 
-[![Version](https://img.shields.io/badge/version-v1.0.8-blue.svg)]()
-[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
-[![Build](https://img.shields.io/badge/build-passing-success.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
+> **A lightweight Python-powered markdown engine that compiles real-time GitHub profile analytics, core contribution graphs, and verified developer system highlights into beautiful, clean layouts for profile READMEs.**
 
-> **Intelligent work systems powered by real-time data**
-
----
-
-## 📖 Overview
-
-**Drew-55** is an ecosystem component designed and maintained by **[@deep5devlopers](https://github.com/deep5devlopers)**. It provides high-performance, resilient functionality for **AI / Real-Time Systems**.
-
-- **Tech Stack:** `Real-Time DB, Python, AI Workflows, WebSockets`
-- **Version:** `v1.0.8`
-- **Live Interactive Demo:** Includes a standalone single-file `index.html` runnable directly in any modern browser or GitHub Pages.
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![GitHub API v3](https://img.shields.io/badge/GitHub%20API-REST%20v3-indigo.svg)](https://docs.github.com/en/rest)
 
 ---
 
-## ✨ Key Features
+## ✨ Visual Features & Capabilities
 
-- **High-Performance Architecture**: Engineered with `Real-Time DB, Python, AI Workflows, WebSockets` for sub-millisecond execution and optimized resource footprints.
-- **Robust Reliability**: Fully tested regression test suites with 100% assertion pass rates.
-- **Zero-Dependency Web Demo**: Instant out-of-the-box browser preview using the included `index.html`.
-- **Automated Ecosystem Sync**: Synchronized continuously with the central [Deep Developer Ecosystem](https://github.com/deep5devlopers/deep).
+- **Zero-Dependency Standard Library Core**: Built purely with Python's native `urllib.request` and `json` modules—no external pip packages required.
+- **Multi-Account Telemetry Aggregation**: Simultaneously tracks and compiles live metrics across `@deep5devlopers` and `@deep-00007` (or any custom list of GitHub usernames).
+- **Comprehensive Developer Analytics**: Automatically extracts public repository counts, follower/following ratios, public organization memberships, account creation timestamps, star/fork velocity, and primary runtime languages.
+- **Modular Markdown Dashboard Generation**: Outputs a clean, deterministic [`PROFILE_METRICS.md`](PROFILE_METRICS.md) report formatted with executive summary tables, blockquotes, and developer cards.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quick Start & Installation
 
-### 1. Run Live Demo (Browser)
-Simply open `index.html` in any web browser:
+Clone the repository and execute `metrics_compiler.py` directly using Python 3:
+
 ```bash
-# macOS
-open index.html
+# 1. Clone the repository
+git clone https://github.com/deep5devlopers/readme-metrics-studio.git
+cd readme-metrics-studio
 
-# Linux
-xdg-open index.html
+# 2. Compile live profile metrics for default accounts (deep5devlopers & deep-00007)
+python metrics_compiler.py
 
-# Windows
-start index.html
+# 3. Compile metrics for custom GitHub usernames and specify output path
+python metrics_compiler.py --users deep5devlopers deep-00007 --output PROFILE_METRICS.md
 ```
 
-### 2. Local Development Server
-```bash
-# Using Python
-python3 -m http.server 8080
-
-# Using Node.js
-npx serve .
-```
-Navigate to `http://localhost:8080` in your browser.
-
 ---
 
-## 🛠️ Technology Stack & Architecture
+## 📁 Repository Architecture
 
-| Component | Specification |
+| File | Responsibility |
 | :--- | :--- |
-| **Category** | AI / Real-Time Systems |
-| **Core Stack** | Real-Time DB, Python, AI Workflows, WebSockets |
-| **Architecture** | Event-driven, low-latency client & service architecture |
-| **Testing** | Automated assertion suite (100% passing) |
-| **Organization** | [@deep5devlopers](https://github.com/deep5devlopers) |
+| `metrics_compiler.py` | Core Python analytics compiler connecting to the GitHub REST API (`https://api.github.com/users/{username}`). |
+| `PROFILE_METRICS.md` | Live compiled Markdown telemetry dashboard for `@deep5devlopers` and `@deep-00007`. |
+| `LICENSE` | Official Open-Source MIT License. |
+| `README.md` | Project documentation, CLI reference, and contribution workflow guide. |
+
+---
+
+## 🏆 Contribution & Badges
+
+Contributions, performance optimizations, and modular layout templates are welcome! This project follows a verified feature-branch Pull Request workflow with automated co-author attribution:
+
+- **Pull Shark**: Verified multi-PR feature and rendering engine optimization pipeline.
+- **Pair Extraordinaire**: Co-authored commits engineered with `Metrics-Studio-Compiler-Bot <bot@readmemetrics.studio>`.
+- **Galaxy Brain**: Community architecture discussions and verified Q&A resolutions.
+
+### Standard Feature Branch Workflow
+
+```bash
+git checkout -b feature/your-enhancement
+python metrics_compiler.py
+git commit -m "Feat: Describe enhancement" -m "Co-authored-by: Metrics-Studio-Compiler-Bot <bot@readmemetrics.studio>"
+git push origin feature/your-enhancement
+```
 
 ---
 
 ## 📄 License
-Released under the [MIT License](LICENSE). Maintained by [Deep Developers](https://github.com/deep5devlopers).
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for full license text.
