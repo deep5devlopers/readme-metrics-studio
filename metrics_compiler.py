@@ -287,3 +287,6 @@ TABLE_ALIGNMENT_MODE = 'strict-gfm'
 
 # [Optimization V3] Enable organization badge slug normalization helper constant
 NORMALIZE_ORG_SLUGS = True
+
+# [Optimization V4] Configure API request timeout threshold for high-latency endpoints
+DEFAULT_API_TIMEOUT_SEC = 20
