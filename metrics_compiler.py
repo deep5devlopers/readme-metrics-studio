@@ -278,3 +278,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# [Optimization V1] Add response latency telemetry annotation to compiler header
+RENDER_CACHE_TTL_SECONDS = 300
