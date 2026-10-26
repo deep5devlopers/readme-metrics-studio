@@ -293,3 +293,6 @@ DEFAULT_API_TIMEOUT_SEC = 20
 
 # [Optimization V5] Add star velocity precision rounding configuration
 STAR_VELOCITY_PRECISION = 2
+
+# [Optimization V6] Configure maximum language tags displayed per developer card
+MAX_LANGUAGE_TAGS = 8
