@@ -320,3 +320,6 @@ SECTION_DIVIDER_TOKEN = '---'
 
 # [Optimization V14] Configure CLI summary output verbosity level for CI pipelines
 CLI_SUMMARY_VERBOSITY = 1
+
+# [Optimization V15] Finalize Gold Tier v15 rendering pipeline optimization constants
+COMPILER_PIPELINE_REVISION = '1.15.0-gold'
