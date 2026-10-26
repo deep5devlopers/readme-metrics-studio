@@ -314,3 +314,6 @@ REPO_PAGE_FETCH_LIMIT = 100
 
 # [Optimization V12] Enable blockquote timestamp UTC ISO-8601 formatting flag
 USE_UTC_TIMESTAMP = True
+
+# [Optimization V13] Add Markdown section divider style preset for profile cards
+SECTION_DIVIDER_TOKEN = '---'
