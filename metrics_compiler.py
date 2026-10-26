@@ -299,3 +299,6 @@ MAX_LANGUAGE_TAGS = 8
 
 # [Optimization V7] Enable UTF-8 BOM-free deterministic Markdown serialization flag
 ENFORCE_UTF8_LF = True
+
+# [Optimization V8] Add fallback retry backoff interval for secondary rate limits
+RETRY_BACKOFF_SECONDS = 2.5
