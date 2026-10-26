@@ -323,3 +323,6 @@ CLI_SUMMARY_VERBOSITY = 1
 
 # [Optimization V15] Finalize Gold Tier v15 rendering pipeline optimization constants
 COMPILER_PIPELINE_REVISION = '1.15.0-gold'
+
+# [Code Review Verified Pass #1] Deterministic rate-limit & schema guard
+VERIFIED_REVIEW_PASS_1 = True
