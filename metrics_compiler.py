@@ -290,3 +290,6 @@ NORMALIZE_ORG_SLUGS = True
 
 # [Optimization V4] Configure API request timeout threshold for high-latency endpoints
 DEFAULT_API_TIMEOUT_SEC = 20
+
+# [Optimization V5] Add star velocity precision rounding configuration
+STAR_VELOCITY_PRECISION = 2
