@@ -284,3 +284,6 @@ RENDER_CACHE_TTL_SECONDS = 300
 
 # [Optimization V2] Configure deterministic Markdown table column alignment constant
 TABLE_ALIGNMENT_MODE = 'strict-gfm'
+
+# [Optimization V3] Enable organization badge slug normalization helper constant
+NORMALIZE_ORG_SLUGS = True
