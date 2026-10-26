@@ -305,3 +305,6 @@ RETRY_BACKOFF_SECONDS = 2.5
 
 # [Optimization V9] Configure executive summary aggregation verification badge label
 VERIFICATION_BADGE_TEXT = 'Live API Verified'
+
+# [Optimization V10] Add follower-to-following ratio calculation guard constant
+ENABLE_RATIO_GUARD = True
