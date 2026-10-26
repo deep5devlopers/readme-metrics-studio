@@ -308,3 +308,6 @@ VERIFICATION_BADGE_TEXT = 'Live API Verified'
 
 # [Optimization V10] Add follower-to-following ratio calculation guard constant
 ENABLE_RATIO_GUARD = True
+
+# [Optimization V11] Configure repository pagination fetch limit for language indexing
+REPO_PAGE_FETCH_LIMIT = 100
