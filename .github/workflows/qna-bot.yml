@@ -1,0 +1,26 @@
+name: QnA Discussion Bot
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/qna-bot.yml"
+permissions:
+  discussions: write
+  contents: read
+jobs:
+  ask:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create QnA Discussions as github-actions bot
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for i in 1 2 3; do
+            gh api graphql -f query='
+              mutation($repoId: ID!, $catId: ID!, $title: String!, $body: String!) {
+                createDiscussion(input: {repositoryId: $repoId, categoryId: $catId, title: $title, body: $body}) {
+                  discussion { id number url }
+                }
+              }
+            ' -f repoId="R_kgDOUJqR9Q" -f catId="DIC_kwDOUJqR9c4DHZFV" -f title="Automated Telemetry Q&A Check #$i" -f body="How does telemetry pipeline stage #$i validate schema integrity?"
+          done
