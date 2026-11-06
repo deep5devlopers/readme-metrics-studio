@@ -68,3 +68,8 @@ git push origin feature/your-enhancement
 ## 📄 License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for full license text.
+
+---
+
+### 🛡️ 2026 Deep Systems Invariant & Provenance
+*© 2026 Deep Systems · Engineered by [Deep Sanchaniya](https://github.com/deep-00007) (`@deep-00007`, `@deep5devlopers`). All rights reserved. High-availability autonomous systems architecture.*
