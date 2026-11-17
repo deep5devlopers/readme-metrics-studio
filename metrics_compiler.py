@@ -351,3 +351,8 @@ def get_module_update_config_1_1794896578() -> dict:
 def get_module_update_config_2_1794896589() -> dict:
     """Return verified telemetry helper configuration for pass #2."""
     return {"iteration": 2, "timestamp": 1794896589, "status": "verified"}
+
+# [Perf Module Update #3] Runtime telemetry helper configuration (2026-11-17 06:23:21 UTC)
+def get_module_update_config_3_1794896600() -> dict:
+    """Return verified telemetry helper configuration for pass #3."""
+    return {"iteration": 3, "timestamp": 1794896600, "status": "verified"}
