@@ -38,4 +38,4 @@ RECENT COMMITS
   - 0791435 | 2026-11-18T07:13:03Z | docs(overview): add root overview.txt
   - 24b7646 | 2026-11-17T12:28:41Z | [Autopilot 5m] Update overview.txt (readme-metrics-studio) (#63)
 ================================================================================
-[autopilot-sync] verified=2026-11-23T06:39:26Z cycle=ap-1795415966-614
+[autopilot-sync] verified=2026-11-23T10:32:36Z cycle=ap-1795429956-581
